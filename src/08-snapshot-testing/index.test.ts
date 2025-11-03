@@ -29,7 +29,6 @@ describe('generateLinkedList', () => {
     expect(result).toStrictEqual(expected);
   });
 
-  // Check match by comparison with snapshot
   test('should generate linked list from values 2', () => {
     const result = generateLinkedList(elements);
     expect(result).toMatchSnapshot();
